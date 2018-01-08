@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main(0
+void main()
 {
 char ch;
 printf("Enter the alphabet:");
