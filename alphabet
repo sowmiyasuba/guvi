@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+char ch;
+printf("enter the value:");
+scanf("%c",&ch);
+if((ch>='a'&&ch<='Z')||(ch>='a'&&ch<='z')
+{
+printf("it is alphabet",ch);
+else
+printf("it is not alphabet");
+}
+}
