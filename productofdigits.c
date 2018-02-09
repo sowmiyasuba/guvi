@@ -11,11 +11,12 @@ int main()
    product=product*(n%10);
         n/=10;
     }
-    printf("The sum of %d id %d",temp,product);
+    printf("The sum of %d id %d\n",temp,product);
+    if(product%2==0)
+    printf("The product is even");
+    else
+    printf("The product is odd");
 
 
     return 0;
 }
-
-
-
