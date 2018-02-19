@@ -3,22 +3,20 @@
 int main()
 {
  
-        int array[50],  i, large;
+        int a[50],i,large;
  
-       printf(" Enter  10 elements of  the array: ");
+       printf(" enter 10 elements: ");
  
-        for (i = 0; i < 10; i++)
-		scanf("%d", &array[i]);
+       for(i=0;i<10;i++)
+       scanf("%d",&a[i]);
+       large=a[0];
  
-        large = array[0];
- 
-        for (i = 1; i <10; i++) 
+        for(i=0;i<10;i++)
         {
-		if (large < array[i])
-			large = array[i];
-	}
- 
-        printf("\n max element present in the given 10 array is : %d", large);
+            if(large<a[i])
+            large=a[i];
+        }
+        printf("Max element is : %d", large);
  
         return 0;
 }
